@@ -67,6 +67,10 @@ else:
 
 
 # %%
+#Conclusion
+print("The one-sample t-test was performed to determine whether the average energy bar weight differs significantly from 50 grams. Since the p-value is 0.809, which is greater than 0.05, we fail to reject the null hypothesis. Therefore, there is not sufficient statistical evidence to conclude that the average weight differs from 50 grams.")
+
+# %%
 #Two-sample t-test
 #Dataset 2
 method_A = [78, 85, 82, 90, 76, 88, 84, 79, 91, 77]
@@ -155,3 +159,7 @@ if p_value < 0.05:
     print("Reject the null hypothesis.")
 else:
     print("Fail to reject the null hypothesis.")
+
+# %%
+#Conclusion
+print("The two-sample t-test was performed to determine whether there is a significant difference between the average scores of students taught using Method A and Method B. Since the p-value is 0.007, which is less than 0.05, we reject the null hypothesis. Therefore, there is a statistically significant difference between the two teaching methods.")
